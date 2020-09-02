@@ -12,8 +12,8 @@ class Net(nn.Module):
         self.feat_dim = 2048
         self.final_dim = final_dim
 
-        resnet50 = torchvision.models.resnet50(pretrained=False)
-        resnet50.load_state_dict(torch.load('./weights/resnet50-19c8e357.pth'))
+        resnet50 = torchvision.models.resnet50(pretrained=True)
+#         resnet50.load_state_dict(torch.load('./weights/resnet50-19c8e357.pth'))
         self.backbone1 = nn.Sequential(
             resnet50.conv1,
             resnet50.bn1,
