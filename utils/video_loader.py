@@ -47,13 +47,13 @@ class VideoDataset(Dataset):
 
         if data_name == 'mars':
             if self.type == "train":
-                self.path = "/Project0551/guoqing/yuhao/datasets/keypoint_train.json"
+                self.path = "./data/datasets/keypoint_train.json"
             else:
-                self.path = "/Project0551/guoqing/yuhao/datasets/keypoint_test.json"
+                self.path = "./data/datasets/keypoint_test.json"
         elif data_name == 'ilidsvid':
-            self.path = "/Project0551/guoqing/yuhao/datasets/keypoint_ilids.json"
+            self.path = "./data/datasets/keypoint_ilids.json"
         elif data_name == 'prid':
-            self.path = "/Project0551/guoqing/yuhao/datasets/keypoint_prid.json"
+            self.path = "./data/datasets/keypoint_prid.json"
 
         with open(self.path, 'r', encoding='utf8') as load_f:
             json_str = json.load(load_f)
