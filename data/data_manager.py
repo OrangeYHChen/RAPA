@@ -31,7 +31,7 @@ class Mars(object):
     Args:
         min_seq_len (int): tracklet with length shorter than this value will be discarded (default: 0).
     """
-    root = '/Project0551/guoqing/yuhao/datasets/mars'
+    root = './data/datasets/mars'
     train_name_path = osp.join(root, 'info/train_name.txt')
     test_name_path = osp.join(root, 'info/test_name.txt')
     track_train_info_path = osp.join(root, 'info/tracks_train_info.mat')
@@ -167,7 +167,7 @@ class iLIDSVID(object):
         split_id (int): indicates which split to use. There are totally 10 splits.
     """
 
-    root = '/Project0551/guoqing/yuhao/datasets/ilids'
+    root = './data/datasets/ilids'
     dataset_url = 'http://www.eecs.qmul.ac.uk/~xiatian/iLIDS-VID/iLIDS-VID.tar'
     data_dir = osp.join(root, 'i-LIDS-VID')
     split_dir = osp.join(root, 'train-test people splits')
@@ -336,7 +336,7 @@ class PRID(object):
         split_id (int): indicates which split to use. There are totally 10 splits.
         min_seq_len (int): tracklet with length shorter than this value will be discarded (default: 0).
     """
-    root = '/Project0551/guoqing/yuhao/datasets/prid'
+    root = './data/datasets/prid'
     dataset_url = 'https://files.icg.tugraz.at/f/6ab7e8ce8f/?raw=1'
     split_path = osp.join(root, 'splits_prid2011.json')
     cam_a_path = osp.join(root, 'prid_2011', 'multi_shot', 'cam_a')
