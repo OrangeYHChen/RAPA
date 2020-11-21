@@ -18,5 +18,5 @@ To use our code, you should download MARS dataset from [Here](https://pan.baidu.
 | Dataset | Rank1 | Rank5 | Rank20 |mAP|
 | :------: | :------: | :------: | :------: | :------: |
 | MARS | 88.7 | 96.1 | 98.1 | 82.8 |
-
- 
+| PRID2011 | 95.2 | 99.2 | 100.0 | - |
+| iLIDS-VID | 89.6 | 98.0 | 99.9 | - |
