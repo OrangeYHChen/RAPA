@@ -7,7 +7,7 @@
 * GPU Memory>20G We Recommend Titan RTX or Tesla V100
 
 ### Datasets
-To use our code, you should download MARS dataset from [Here](https://pan.baidu.com/s/1XKBdY8437O79FnjWvkjusw)(key:ymc5), and put these data into /data/datasets/mars/.
+To use our code, you should download datasets from [Here](https://kaiyangzhou.github.io/deep-person-reid/datasets.html#video-datasets), and put these data into /data/datasets/mars/.
 
 ### Usage
 * Firstly, we provide the region box information which extracts from MARS dataset with the application of HRNet. You can download from [MARS_Test_RegionBox](https://drive.google.com/file/d/1OTcEfFHUI-nkMU8l5ZGqN4hDol6exmgD/view?usp=sharing) and [MARS_Train_RegionBox](https://drive.google.com/file/d/1wk-P7fTW7sJpWLMmqlYkgJGT2X9H2fWP/view?usp=sharing), and put them into /data/keypoints/.
