@@ -197,6 +197,6 @@ if __name__ == '__main__':
     parser.add_argument('--log_train', default='test.txt', type=str, help='train log file name')
     parser.add_argument('--log_test', default='test.txt', type=str, help='test log file name')
     parser.add_argument('--model_path', default='./weights/rapa_model.pth.tar', type=str, help='model file name')
-    parser.add_argument('--feat_dim', default=1024, type=int, help='feature dim is feat_dim x 4')
+    parser.add_argument('--feat-dim', default=1024, type=int, help='feature dim is feat_dim x 4')
     args = parser.parse_args()
     main(args)
