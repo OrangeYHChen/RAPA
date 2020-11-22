@@ -26,19 +26,19 @@ We evaluate our method on Mars, iLIDS-VID and PRID-2011 datasets. You can downlo
 On Mars dataset: 
 
 ``
-python run.py --dataset mars --max_epoch 400 --train_batch 32 --num_instances 4 --lr 0.00035 --feat_dim 1024 --a1 1 --a2 1 --a3 0.0003 --margin 0.5 --gpu_devices 0
+python run.py --dataset mars --max-epoch 400 --train-batch 32 --num-instances 4 --lr 0.00035 --feat-dim 1024 --a1 1 --a2 1 --a3 0.0003 --margin 0.5 --gpu-devices 0
 ``
 
 On iLIDS-VID dataset: 
 
 ``
-python run.py --dataset ilidsvid --max_epoch 400 --train_batch 32 --num_instances 4 --lr 0.00035 --feat_dim 512 --a1 1 --a2 1 --a3 0.00005 --margin 0.5 --gpu_devices 0
+python run.py --dataset ilidsvid --max-epoch 400 --train-batch 32 --num-instances 4 --lr 0.00035 --feat-dim 512 --a1 1 --a2 1 --a3 0.00005 --margin 0.5 --gpu-devices 0
 ``
 
 On PRID-2011 dataset: 
 
 ``
-python run.py --dataset prid --max_epoch 400 --train_batch 32 --num_instances 4 --lr 0.00035 --feat_dim 256 --a1 1 --a2 1 --a3 0.00005 --margin 0.5 --gpu_devices 0
+python run.py --dataset prid --max-epoch 400 --train-batch 32 --num-instances 4 --lr 0.00035 --feat-dim 256 --a1 1 --a2 1 --a3 0.00005 --margin 0.5 --gpu-devices 0
 ``
 
 ### Evaluate
