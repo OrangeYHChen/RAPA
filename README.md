@@ -1,17 +1,21 @@
 # RAPA
 
 ### Prerequisites
-* Pytorch 1.0
+* Pytorch 1.1
 * cuda 9.0
 * python 3.6
 * GPU Memory>20G We Recommend Titan RTX or Tesla V100
 
 ### Datasets
-To use our code, you should download datasets from [Here](https://kaiyangzhou.github.io/deep-person-reid/datasets.html#video-datasets), and put these data into /data/datasets/mars/.
+We evaluate our method on MARS, iLIDS-VID and PRID-2011 datasets. You can download datasets from [Here](https://kaiyangzhou.github.io/deep-person-reid/datasets.html#video-datasets), and put them into /data/datasets/.
 
 ### Usage
-* Firstly, we provide the region box information which extracts from MARS dataset with the application of HRNet. You can download from [MARS_Test_RegionBox](https://drive.google.com/file/d/1OTcEfFHUI-nkMU8l5ZGqN4hDol6exmgD/view?usp=sharing) and [MARS_Train_RegionBox](https://drive.google.com/file/d/1wk-P7fTW7sJpWLMmqlYkgJGT2X9H2fWP/view?usp=sharing), and put them into /data/keypoints/.
-* If you want to test our trained model, you can obtain our trained model from [Here](https://drive.google.com/file/d/1qpJKPgPLyHriiNfBoJGRDbVGcOqAxhBo/view?usp=sharing), and put it into /weights/. After that, you can run our code with the command "python evaluate.py".
+* Firstly, we provide the region box information which extracts from MARS，iLIDS-VID and PRID-2011 datasets with the application of HRNet. You can download from the following links and put them into /data/keypoints/.
+[MARS_Testing_RegionBox](https://drive.google.com/file/d/1OTcEfFHUI-nkMU8l5ZGqN4hDol6exmgD/view?usp=sharing)
+[MARS_Training_RegionBox](https://drive.google.com/file/d/1wk-P7fTW7sJpWLMmqlYkgJGT2X9H2fWP/view?usp=sharing)
+[iLIDS-VID Testing and Training RegionBox](https://drive.google.com/file/d/1Q8G6MUCCIMK21mFNfmBz4gl6qKd-ZhfN/view?usp=sharing)
+[PRID-2011 Testing and Training RegionBox](https://drive.google.com/file/d/1mGIFNPaGsMRHjCd5dJbmwauqzjKWRdAE/view?usp=sharing)
+* If you want to test our trained model on MARS, you can obtain our trained model from [Here](https://drive.google.com/file/d/1qpJKPgPLyHriiNfBoJGRDbVGcOqAxhBo/view?usp=sharing), and put it into /weights/. After that, you can run our code with the command "python evaluate.py".
 * If you want to train the network, you can run our code with the command "python run.py".
 
 ### Evaluate
